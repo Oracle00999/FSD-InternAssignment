@@ -31,3 +31,17 @@ Handles various note formats gracefully
 Could easily be replaced with a real AI service later
 
 The focus was on creating a believable user interaction rather than sophisticated NLP, which aligns perfectly with the "mock AI" requirement while keeping the implementation simple and maintainable.
+
+How to Start the App
+
+Using Docker (Recommended - One Command Setup)
+
+# Run this command in the project root directory:
+
+docker-compose up --build
+
+# The app will be available at:
+
+# Frontend: http://localhost:3000
+
+# Backend API: http://localhost:3001
